@@ -48,14 +48,12 @@ class Sphinx:
 
     def pose_riddle(self, include_hint: bool = False) -> tuple[str, str | None]:
         """Poses the stored riddle and a hint if requested.
-                
         Args:
             include_hint (bool, optional): Set to True to ask for hint. Defaults to False.
-                
         Returns:
             tuple[str, str | None]: The riddle and a hint or an empty string or None
                 if no hint was requested.
-        """            
+        """
         hint = (
             f"Hint: The answer starts with the letter '{self._riddle.get_hint()}'."
             if include_hint
