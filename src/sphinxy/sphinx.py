@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 from sphinxy.riddle import Riddle
 
 
@@ -85,3 +87,4 @@ class Sphinx:
             )
         else:
             raise IncorrectAnswer("Your answer was wrong. You shall not pass.")
+        
