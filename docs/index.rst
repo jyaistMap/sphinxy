@@ -6,7 +6,7 @@
 Welcome to Sphinxy's documentation!
 ===================================
 
-Explore Sphinxy's documentation by browsing the different modules.
+Explore Sphinxy's documentation by browsing the different modules after pasting.
 
 .. toctree::
    :maxdepth: 2
